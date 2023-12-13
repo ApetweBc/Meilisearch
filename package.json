@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "meilisearch": "^0.36.0"
+  },
+
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}

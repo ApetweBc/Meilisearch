@@ -1,0 +1,34 @@
+
+Meilisearch Installation
+
+# Install Meilisearch
+curl -L https://install.meilisearch.com | sh
+
+# Launch Meilisearch
+./meilisearch
+
+
+./meilisearch --master-key="_CILaq1dvB5JPFjsGOydvFOO5mwUGXO6As5kjiCSFAY"
+Config file path:       "none"
+Database path:          "./data.ms"
+Server listening on:    "http://localhost:7700"
+Environment:            "development"
+Commit SHA:             "b11f85a635d41ff69a59d6b2068fd4b77fe04959"
+Commit date:            "2023-11-13T10:36:01Z"
+Package version:        "1.5.0"
+
+
+
+Key & memory limit
+./meilisearch --master-key="_CILaq1dvB5JPFjsGOydvFOO5mwUGXO6As5kjiCSFAY" --max-indexing-memory 0
+
+
+After I installed Meilisearch npm package
+I rather use parcel rather than npm
+
+Create the dev depencies and pointed it the src folder
+
+
+I also installed algolia instant search plugin
+
+https://github.com/algolia/instantsearch
